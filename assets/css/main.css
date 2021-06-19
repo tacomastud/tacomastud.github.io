@@ -871,7 +871,7 @@ input, select, textarea {
 
 		body.fullscreen #main {
 			visibility: hidden;
-			right: -22.5em;
+			right: -27.5em;
 		}
 
 		body.is-preload-1 #main {
