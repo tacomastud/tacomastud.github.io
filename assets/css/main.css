@@ -271,6 +271,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+
 /* Button */
 
 	input[type="submit"],
@@ -835,7 +841,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
-		width: 22.5em;
+		width: 27.5em;
 		height: 100%;
 		background: #fff;
 		outline: 0;
@@ -1103,7 +1109,7 @@ input, select, textarea {
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
-		width: calc(100% - 22.5em);
+		width: calc(100% - 27.5em);
 		height: 100%;
 		left: 0;
 	}
