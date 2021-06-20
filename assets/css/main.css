@@ -645,10 +645,12 @@ input, select, textarea {
 		list-style: decimal;
 		margin: 0 0 1.25em 0;
 		padding-left: 0.25em;
+		width: 50%
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 8.25em;
+			width: 50%
 		}
 
 	ul {
