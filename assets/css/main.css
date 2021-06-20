@@ -644,7 +644,7 @@ input, select, textarea {
 	ol {
 		list-style: decimal;
 		margin: 0 0 1.25em 0;
-		padding-left: 2.25em;
+		padding-left: 0.25em;
 	}
 
 		ol li {
@@ -654,7 +654,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 1.25em 0;
-		padding-left: 1.75em;
+		padding-left: 4.75em;
 		text-align:center;
 		width: 50%;
 	}
