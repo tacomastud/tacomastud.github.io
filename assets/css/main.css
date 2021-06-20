@@ -606,6 +606,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		text-align:center;
 	}
 
 		.icon:before {
@@ -623,6 +624,7 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+			text-align:center;
 		}
 
 		.icon:before {
@@ -653,10 +655,12 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 1.25em 0;
 		padding-left: 1em;
+		text-align:center;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			text-align:center;
 		}
 
 		ul.alt {
