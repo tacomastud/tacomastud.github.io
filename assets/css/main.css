@@ -112,6 +112,24 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+	.footertxt {
+		float: left;
+		height: 75px;
+		width: 235px;
+		top: 50%;
+		margin: 0;
+  		-ms-transform: translateY(-50%);
+ 		transform: translateY(-50%);
+	  }
+	  .footerimg {
+		padding-left: 0.1em;
+		float:right;
+		top: 50%;
+		margin: 0;
+		-ms-transform: translateY(-30%);
+	    transform: translateY(-30%);
+	  }
+
 /* Type */
 
 	html {
@@ -152,9 +170,10 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		-ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		transition: color 0.25s ease, border-bottom-color 0.25s ease;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: inherit;
 		text-decoration: none;
+		display: inline-block;
 	}
 
 		a:hover {
@@ -173,6 +192,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1.25em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -276,6 +296,7 @@ input, select, textarea {
 		margin-left: auto;
 		margin-right: auto;
 	  }
+
 
 /* Button */
 
@@ -816,6 +837,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align:center
+		
 	}
 
 		ul.icons li {
@@ -832,6 +855,8 @@ input, select, textarea {
 			}
 
 /* Main */
+
+
 
 	#main {
 		-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
