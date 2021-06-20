@@ -112,24 +112,6 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-	.footertxt {
-		float: left;
-		height: 75px;
-		width: 235px;
-		top: 50%;
-		margin: 0;
-  		-ms-transform: translateY(-50%);
- 		transform: translateY(-50%);
-	  }
-	  .footerimg {
-		padding-left: 0.1em;
-		float:right;
-		top: 50%;
-		margin: 0;
-		-ms-transform: translateY(-30%);
-	    transform: translateY(-30%);
-	  }
-
 /* Type */
 
 	html {
