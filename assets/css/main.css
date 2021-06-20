@@ -192,7 +192,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1.25em 0;
-		text-align: justify;
+		text-align: left;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -627,7 +627,6 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		text-align:center;
 	}
 
 		.icon:before {
@@ -645,7 +644,6 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-			text-align:center;
 		}
 
 		.icon:before {
@@ -665,26 +663,21 @@ input, select, textarea {
 	ol {
 		list-style: decimal;
 		margin: 0 0 1.25em 0;
-		padding-left: 0.25em;
-		width: 50%;
+		padding-left: 1.25em;
 	}
 
 		ol li {
-			padding-left: 100px;
-			width: 50%;
+			padding-left: 0.25em;
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 1.25em 0;
-		padding-left: 4.75em;
-		text-align:center;
-		width: 50%;
+		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
-			text-align:center;
 		}
 
 		ul.alt {
@@ -851,7 +844,6 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
-			text-align: center;
 		}
 
 			ul.icons li:last-child {
