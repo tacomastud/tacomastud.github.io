@@ -147,6 +147,10 @@ input, select, textarea {
 		color: #404040;
 	}
 
+	.bold_text {
+		font-weight: bold;
+	}
+
 	a {
 		-moz-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		-webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
